@@ -106,8 +106,8 @@ nav *{
 
 .darker{ color: #333333 !important; }
 .pink{ color: #e74e84 !important; }
+
 .lighter{
-  color: #777777 !important;
   font-weight: 300;
 }
 
@@ -116,28 +116,13 @@ nav *{
   margin: 10px;
   border-radius: 7px;
   font-size: 15px;
-  color: #606060;
   font-weight: 500;
   cursor: default;
   transition: all .1s linear;
 }
 
-.no{ 
-  transition: all .1s linear;
- }
-
-.list-chip:hover, .list-chip:hover .no{
-  color: white !important;
-}
-
-.list-chip:hover{
-  background-color: #E74E84;
-  padding-top: 10px !important;
-  padding-bottom: 10px !important;
-}
-
 .smoky{
-  background-color: #F5F8FA;
+  background-color: #f5f5f5;
 }
 
 .hill{
@@ -153,11 +138,16 @@ nav *{
 }
 
 p{
-  color: #555555;
+  color: #333333;
+}
+
+footer{
+  background-color: #f5f5f5;
 }
 
 footer *{
   font-size: 15px;
+  color: #333333;
 }
 
 footer .up{
@@ -190,4 +180,12 @@ footer .up{
 
 .modal *{
   color: #555555;
+}
+
+.any{
+  height: 100px;
+  width: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

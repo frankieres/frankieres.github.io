@@ -72,9 +72,9 @@ $(document).ready(()=>{
 					<p class="m-0 pb-3 pt-4 bold uppercase">Follows Us</p>
 					<div class="flex justify-start flex-wrap">
 						<a href="https://m.facebook.com/people/Frankie-Resourcing/100092560505803/"><p class="m-0 px-2"><i class="text-xl-3 icon-facebook"></i></p></a>
-						<a href=""><p class="m-0 px-2"><i class="text-xl-3 icon-instagram"></i></p></a>
+						<a href="https://instagram.com/frankie_resourcing?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"><p class="m-0 px-2"><i class="text-xl-3 icon-instagram"></i></p></a>
 						<a href="https://twitter.com/careernurses?s=11"><p class="m-0 px-2"><i class="text-xl-3 icon-twitter"></i></p></a>
-						<a href=""><p class="m-0 px-2"><i class="text-xl-3 icon-youtube"></i></p></a>
+						<a href="https://youtube.com/@FrankieResourcing?si=ygywrzDg5_hx2uUe"><p class="m-0 px-2"><i class="text-xl-3 icon-youtube"></i></p></a>
 					</div>
 				</div>
 			</div>
@@ -95,10 +95,16 @@ $(document).ready(()=>{
 
  		  <div class="flex justify-start pt-2 align-items-center">
 		  	<a href="https://m.facebook.com/people/Frankie-Resourcing/100092560505803/"><p class="text-xl-3 m-0 my-2 px-3 icon-facebook"></p></a>
-			  <a href="https://twitter.com/careernurses?s=11"><p class="text-xl-3 m-0 my-2 px-3 icon-twitter"></p></a>
-			  <a href="#"><p class="text-xl-3 m-0 my-2 px-3 icon-youtube"></p></a>
+		  	<a href="https://instagram.com/frankie_resourcing?igshid=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr"><p class="m-0 px-2"><i class="text-xl-3 icon-instagram"></i></p></a>
+			<a href="https://twitter.com/careernurses?s=11"><p class="text-xl-3 m-0 my-2 px-3 icon-twitter"></p></a>
+			<a href="https://youtube.com/@FrankieResourcing?si=ygywrzDg5_hx2uUe"><p class="text-xl-3 m-0 my-2 px-3 icon-youtube"></p></a>
 		  </div>
 		</div>
-	`)
+	`);
+
+
+	$('#clickmore').click(() => {
+		$('#readmore').fadeToggle();
+	});
 
 })
