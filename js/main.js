@@ -1,8 +1,14 @@
 $(document).ready(()=>{
 	let fake = $('#fake').text();
 
+	let caret = `
+		<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="#909090" height="20px" width="15px">
+		    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+		</svg>
+	`
+
 	$('#nav').html(`
-		<nav class="p-0 flex sticky-top bg-white justify-center align-items-center">
+		<nav class="p-0 flex sticky-top justify-center align-items-center">
 			<div class="flex flex-wrap-sm justify-between align-items-center col-8-xxl px-15-xxl px-4-lg col-10-md px-2-md">
 				<div class="flex justify-between col-10-sm  align-items-center">
 					<a href="${fake}index.html"><div class="flex align-items-center">
@@ -14,12 +20,13 @@ $(document).ready(()=>{
 					<p id="togglemore" class="icon-menu text-xl-7 px-2 py-2-xxl m-0 d-none-xxl d-block-sm"></p>
 				</div>
 				<div id="more" class="flex d-none-sm col-10-sm flex-wrap-sm align-items-center justify-end">
-					<p class="m-0 col-10-sm py-3 px-2"><a href="${fake}index.html">Home</a></p>
-					<p class="m-0 col-10-sm py-3 px-2"><a href="${fake}index.html#blogs">Blog Pages</a></p>
-					<p class="m-0 col-10-sm py-3 px-2"><a href="${fake}index.html#services">Find Service</a></p>
-					<p class="m-0 col-10-sm py-3 px-2"><a href="#ex1" rel="modal:open">Contact Us</a></p>
-					<p class="m-0 col-10-sm py-3 px-2"><a href="#ex1" rel="modal:open">Check Our Reseach</a></p>
-					<p class="m-0 col-10-sm py-2 px-2"><a href="#ex1" rel="modal:open">
+					<p class="m-0 col-10-sm py-3 px-4"><a href="${fake}index.html">Home &nbsp;${caret}</a></p>
+					<p class="m-0 col-10-sm py-3 px-4"><a href="${fake}index.html#blogs">Blogs &nbsp; Pages &nbsp;${caret}</a></p>
+					<p class="m-0 col-10-sm py-3 px-4"><a href="${fake}index.html#services">Service &nbsp;${caret}</a></p>
+					<p class="m-0 col-10-sm py-3 px-4"><a href="#ex1" rel="modal:open">Contacts &nbsp;${caret}</a></p>
+				</div>
+				<div>
+					<p class="m-0 col-10-sm py-3 px-2"><a href="#ex1" rel="modal:open">
 						<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" height="30px" width="30px">
 						  <path stroke-linecap="round" stroke-linejoin="round" d="M17.982 18.725A7.488 7.488 0 0012 15.75a7.488 7.488 0 00-5.982 2.975m11.963 0a9 9 0 10-11.963 0m11.963 0A8.966 8.966 0 0112 21a8.966 8.966 0 01-5.982-2.275M15 9.75a3 3 0 11-6 0 3 3 0 016 0z" />
 						</svg>

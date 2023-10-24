@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.cdnfonts.com/css/arial-2');
+@import url('https://fonts.cdnfonts.com/css/along-sans-s2');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Wix Madefor Text', sans-serif;
+	border-color: #E5E5E5;
+}
+
+.b4 { font-weight: 400; }
+.b5 { font-weight: 500; }
+.b6 { font-weight: 600; }
+.b7 { font-weight: 700; }
+.b8 { font-weight: 800; }
+
+
+nav *{
+	color: #000;
+}
+
+nav{
+	box-shadow: 0 4px 8px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.01);
+
+}
+
+.link: hover{
+	color: #166aea;
+}
+
+.blue{
+	background-color: #166AEA;
+}
+
+.sp{
+	font-family: 'Along Sans s2', sans-serif !important;
+}
+
+.banner{
+	background-color: #29398A;
+	color: #cfe5ff;
+}
+
+.land{
+	background-color: #2F40AD;
+	color: white;
+}
+
+.test{
+	color: white;
+	border-radius: 15px;
+	font-size: 18px;
+	border: 1px solid #ffffffa0;
+}
+
+.ln{
+	line-height: 26px;
+}
+
+.ln2{
+	line-height: 30px;
+}
+
+.black{
+	color: white;
+	background-color: #000;
+}
+
+.splide__slide{
+	background-color: white;
+	padding: 1px;
+}
+
+.imgg{
+	height: 500px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.thumbnails {
+  display: flex;
+  margin: 1rem auto 0;
+  padding: 0;
+  justify-content: center;
+}
+
+
+.thumbnail {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  list-style: none;
+  margin: 0 0.2rem;
+  cursor: pointer;
+}
+
+
+.thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+.d-none{
+	display: none !important;
+}
+
+.pink{
+	background-color: #DAC4FB;
+}
+
+.purple{
+	background-color: #7B70DF;
+}
+
+.smoky{
+	background-color: #F3EFE5;
+	font-size: 20px;
+}
+
+.blog{
+	height: 420px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+#blog{
+}
+
+.scale-75{
+	transform: scale(1.5);
+}
+
+.user{
+	background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTpKTgoPCKPve1XjABsL1AfpM1OSLivo6_wSg&usqp=CAU');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.modal{
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: #00000070;
+	z-index: 100;
+}
+
+.contact, #close{
+	cursor: default;
+}
