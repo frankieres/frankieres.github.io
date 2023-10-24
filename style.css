@@ -157,3 +157,10 @@ nav{
 .contact, #close{
 	cursor: default;
 }
+
+.cov{
+	background-image: url('img/gp.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
