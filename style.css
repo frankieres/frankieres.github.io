@@ -6,7 +6,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Wix Madefor Text', sans-serif;
-	border-color: #E5E5E5;
+	font-size: 18px;
 }
 
 .b4 { font-weight: 400; }
@@ -61,6 +61,11 @@ nav{
 .ln2{
 	line-height: 30px;
 }
+
+.ln3{
+	line-height: 34px;
+}
+
 
 .black{
 	color: white;
@@ -163,4 +168,8 @@ nav{
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
+}
+
+.sep{
+	border-color: #E5E5E5;
 }
