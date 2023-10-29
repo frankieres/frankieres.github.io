@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@400;500;600;700;800&display=swap');
 @import url('https://fonts.cdnfonts.com/css/arial-2');
 @import url('https://fonts.cdnfonts.com/css/along-sans-s2');
+@import url('https://fonts.googleapis.com/css2?family=Gorditas:wght@400;700&family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
 
 *{
 	margin: 0;
@@ -10,18 +11,36 @@
 }
 
 .b4 { font-weight: 400; }
+.b2 { font-weight: 300; }
 .b5 { font-weight: 500; }
 .b6 { font-weight: 600; }
 .b7 { font-weight: 700; }
 .b8 { font-weight: 800; }
+.b3{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 200 !important;
+}
 
+
+.pp{
+	font-family: 'Poppins', sans-serif;
+}
+
+.sps{
+	font-weight: 400 !important;
+	font-family: 'Gorditas', serif;
+	color: #ffffffa0;
+}
 
 nav *{
-	color: #000;
+	color: #fff;
+	font-weight: bold;
 }
 
 nav{
+	background-color: #2F40AD;
 	box-shadow: 0 4px 8px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.01);
+	border-bottom: 2px solid #ffffff30;
 
 }
 
@@ -45,6 +64,29 @@ nav{
 .land{
 	background-color: #2F40AD;
 	color: white;
+}
+
+.btn{
+	background-color: #2F40ADf0;
+}
+
+.btnz{
+	background-color: #3B4BB2;
+}
+
+.t{ color: #3B4BB2; }
+
+.map{
+	background-image: url('https://api-v2.homeinstead.co.uk/client/wp-content/uploads/sites/2/2023/06/Home-Instead-1-e1688118599717-1000x941.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	border-top-left-radius: 100%;
+}
+
+@media (max-width: 650px) {
+	.map{
+		border-top-left-radius: 70%;
+	}
 }
 
 .test{
@@ -120,7 +162,7 @@ nav{
 }
 
 .smoky{
-	background-color: #F3EFE5;
+	background-color: #3B4BB210;
 	font-size: 20px;
 }
 
@@ -155,7 +197,7 @@ nav{
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: #00000070;
+	background-color: #00000060;
 	z-index: 100;
 }
 
@@ -172,4 +214,45 @@ nav{
 
 .sep{
 	border-color: #E5E5E5;
+}
+
+.about{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-image: url('https://api-v2.homeinstead.co.uk/client/wp-content/uploads/sites/2/2022/07/Feeling-stuck-1000x1501.jpg');
+	border-top-right-radius: 10px;
+	border-bottom-left-radius: 10px;
+	border-top-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+
+footer *{
+	color: white;
+	border-color: #ffffff20 !important;
+}
+
+.imager{
+	border: 2px solid #00000030;
+	background-color: #2F40AD05;
+}
+
+.iconz{
+	padding: 10px;
+	border-radius: 50%;
+	background-color: #ffffff20;
+	height: 40px;
+	width: 40px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 14px !important;
+}
+
+.modal *{
+	color: white !important;
+}
+
+.moda{
+	background-color: #3B4BB2;
 }
